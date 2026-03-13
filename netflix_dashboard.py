@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np 
-import seaborn as sns
 import plotly.express as px
 import cufflinks as cf
 from netflix_analysis import pie,hist,bar
@@ -60,3 +59,4 @@ elif page == 'Graphs':
     st.plotly_chart(bar)
 
     st.write("The United States produces the highest amount of Netflix content.")
+
