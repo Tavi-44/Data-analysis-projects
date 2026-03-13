@@ -6,10 +6,4 @@ matplotlib
 seaborn
 plotly
 joblib
-streamlit
-pandas
-numpy
-matplotlib
-seaborn
-plotly
 cufflinks
