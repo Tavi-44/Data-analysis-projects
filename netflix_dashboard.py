@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import numpy as np 
-import matplotlib.pyplot as plt
 import seaborn as sns
 import plotly.express as px
 import cufflinks as cf
@@ -59,4 +58,5 @@ elif page == 'Graphs':
     st.plotly_chart(hist)
     st.write("Most Netflix content was released after 2015 showing rapid platform growth.")
     st.plotly_chart(bar)
+
     st.write("The United States produces the highest amount of Netflix content.")
